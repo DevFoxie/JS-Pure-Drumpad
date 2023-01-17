@@ -71,8 +71,8 @@ h1 {
 
 .footer {
     width: 100%;
-    height: 200px;
-    background-color:orange;
+    height: 220px;
+    background-color: orange;
     margin-top: 2em;
 }
 
@@ -86,4 +86,5 @@ a {
     display: flex;
     justify-content: center;
     color: greenyellow;
+    margin-bottom: 50px;
 }
