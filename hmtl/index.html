@@ -5,7 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CUSTOM CSS-->
     <link rel="stylesheet" href="../css/custom.css">
+    <!--FAVICON-->
+    <link rel="shortcut icon" type="image/png" href="../favicon/drum2.ico"/>
+
     <title>PURE JS DRUMPAD</title>
 </head>
 
@@ -51,11 +55,19 @@
             <span class="sound">tink</span>
         </div>
         <!-- Footer -->
-        <div class="footer">
+        <div class="infos">
             <h1><span>Merci d'avoir profitez de mon drumpad !</span></h1>
             <a href="https://github.com/DevFoxie">Mon github</a>
         </div>
+        <div>
+            <input id="beat-box-button" type="button" value="Beat-Box">
+        </div>
     </div>
+    <!--Essai de video background au clic bouton-->
+    <video id="bg-video" muted>
+        <source src="../videos/Rainbow Frog Dances to Darude Sandstorm.mp4#t=12,30" type="video/mp4">
+      </video>
+      
     <!-- Audio source -->
     <audio data-key="65" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1159990/clap.wav"></audio>
     <audio data-key="90" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1159990/hihat.wav"></audio>
@@ -67,6 +79,7 @@
     <audio data-key="88" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1159990/tom.wav"></audio>
     <audio data-key="67" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1159990/tink.wav"></audio>
 
+    <!--JS SCRIPT-->
     <script src="../js/main.js"></script>
 </body>
 
